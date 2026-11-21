@@ -1,0 +1,26 @@
+{
+  "LightGBM": {
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "num_leaves": 63,
+      "n_estimators": 800,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.6
+    },
+    "cv_rmse": 7.655228544944906
+  },
+  "XGBoost": {
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 5.0,
+      "n_estimators": 800,
+      "min_child_weight": 10,
+      "max_depth": 6,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.8
+    },
+    "cv_rmse": 7.61352328270006
+  }
+}

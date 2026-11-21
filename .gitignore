@@ -1,4 +1,9 @@
-data/*.csv 
-models/*.pkl 
-__pycache__/ 
+# Raw Kaggle data and derived full-size files (download instructions in README)
+data/
+# Large model artefacts; the small production model models/demand_model.pkl is committed
+models/*.pkl
+!models/demand_model.pkl
+__pycache__/
 *.pyc
+.pytest_cache/
+*.log
